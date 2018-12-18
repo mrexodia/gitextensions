@@ -287,6 +287,9 @@
       <Component Id="AppVeyorIntegration.dll" Guid="*">
         <File Source="..\Plugins\BuildServerIntegration\AppVeyorIntegration\bin\$(var.Configuration)\AppVeyorIntegration.dll" />
       </Component>
+	  <Component Id="GitLabCiIntegration.dll" Guid="*">
+        <File Source="..\Plugins\BuildServerIntegration\GitLabCiIntegration\bin\$(var.Configuration)\GitLabCiIntegration.dll" />
+      </Component>
       <Component Id="JenkinsIntegration.dll" Guid="*">
         <File Source="..\Plugins\BuildServerIntegration\JenkinsIntegration\bin\$(var.Configuration)\JenkinsIntegration.dll" />
       </Component>

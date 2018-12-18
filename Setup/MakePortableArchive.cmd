@@ -83,6 +83,8 @@ xcopy /y ..\Plugins\Bitbucket\bin\%Configuration%\Bitbucket.dll GitExtensions\Pl
 IF ERRORLEVEL 1 EXIT /B 1
 xcopy /y ..\Plugins\BuildServerIntegration\AppVeyorIntegration\bin\%Configuration%\AppVeyorIntegration.dll GitExtensions\Plugins\
 IF ERRORLEVEL 1 EXIT /B 1
+xcopy /y ..\Plugins\BuildServerIntegration\GitLabCiIntegration\bin\%Configuration%\GitLabCiIntegration.dll GitExtensions\Plugins\
+IF ERRORLEVEL 1 EXIT /B 1
 xcopy /y ..\Plugins\BuildServerIntegration\JenkinsIntegration\bin\%Configuration%\JenkinsIntegration.dll GitExtensions\Plugins\
 IF ERRORLEVEL 1 EXIT /B 1
 xcopy /y ..\Plugins\BuildServerIntegration\TeamCityIntegration\bin\%Configuration%\TeamCityIntegration.dll GitExtensions\Plugins\
